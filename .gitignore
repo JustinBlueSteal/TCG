@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Node
+node_modules/
+npm-debug.log
+.DS_Store
+build/
+
+# Environment
+.env*
+!/.env.example
+
+# Docker
+docker-compose.override.yml
+
+# FILE: ./.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend
+node_modules/
+frontend/build/
+frontend/dist/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+postgres_data/
+
+# Secrets
+.env
+backend/.env
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+README.md
+.env2
+the env file update questions for initial setup function
