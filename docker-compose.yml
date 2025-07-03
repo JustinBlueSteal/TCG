@@ -4,9 +4,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      POSTGRES_USER: cardtrade_user
-      POSTGRES_PASSWORD: 123
-      POSTGRES_DB: card_platform_db
+      POSTGRES_USER: """[postgres_user]"""
+      POSTGRES_PASSWORD: """[postgres_password]"""
+      POSTGRES_DB: """[postgres_database]"""
     ports:
       - "5432:5432"
     healthcheck:
