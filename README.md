@@ -1,11 +1,12 @@
-# Card Platform - Full Stack Application
+# Platform - Full Stack Application
 
-This is the boilerplate for a comprehensive TCG card trading platform, built with Flask and React.
+This is the boilerplate for a comprehensive platform, built with Flask and React.
 
 ## Prerequisites
 - Docker & Docker Compose
 - Python 3.9+
 - `pip` for installing Python packages
+- Postgres Database
 
 ## How to Run
 
